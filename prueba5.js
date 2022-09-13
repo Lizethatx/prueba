@@ -48,7 +48,7 @@
 	</thead>
 	<tbody>
 	</tbody>
-</tabla>
+</table>
  
 </body>
 </html>
@@ -57,14 +57,14 @@
 var actual=new Date();
 function mostrarCalendario(year,month)
 {
-	var now=new Date(year,month-1,1);
-	var last=new Date(year,month,0);
+	var now=new (year,month-1,1)
+	var last=new (year,month,0);
 	var primerDiaSemana=(now.getDay()==0)?7:now.getDay();
 	var ultimoDiaMes=last.getDate();
 	var dia=0;
 	var resultado="<tr bgcolor='silver'>";
 	var diaActual=0;
-	console.log(ultimoDiaMes);
+	console.log(ultimoDia);
  
 	var last_cell=primerDiaSemana+ultimoDiaMes;
  
