@@ -38,7 +38,7 @@
  
 <body>
  
-<h1>Ejemplo de un simple calendario en JavaScript</h1>
+<h1>Ejemplo de un simple calendario en JavaScript
 <table id="calendar">
 	<caption></caption>
 	<thead>
@@ -48,7 +48,7 @@
 	</thead>
 	<tbody>
 	</tbody>
-</table>
+</tabla>
  
 </body>
 </html>
@@ -96,6 +96,6 @@ function mostrarCalendario(year,month)
 			resultado+="</tr><tr>\n";
 		}
 	}
-	resultado+="</tr>";
+	resultado+="</tr>"
  
 ... (26 líneas restantes)
